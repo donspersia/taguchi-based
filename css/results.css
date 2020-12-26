@@ -1,0 +1,66 @@
+﻿
+.triangle {	background: #fed600; }
+.wish {  
+	font-size: 1.875em;  
+	margin: 20px 0; 
+}
+.wish_end { 
+	width: 50%; 
+	text-align: end; 
+	font-style: italic;
+}
+
+.triangle_step1::after,
+.triangle_step2::after,
+.triangle_step3::after,
+.triangle_step4::after,
+.triangle_step5::after {
+	content: '';
+	position: absolute;
+	top: -20px;
+    left: -4px;
+    border: 10px solid transparent;
+    border-bottom: 20px solid #fed600;
+    border-radius: 0px 0px 10px 10px;
+}
+.style2 { margin: 50px 0; }
+.style2 td { color: #1c526b; }
+.step1,
+.step2,
+.step3,
+.step4,
+.step5 { 
+	color: #4b8aa6;
+	font-weight: 400;
+}
+.text_color { color: #a5a5a5; }
+
+/*##################  MOBILE  ##################*/
+
+.step1_mobile, 
+.step2_mobile, 
+.step3_mobile, 
+.step4_mobile, 
+.step5_mobile { 
+	color: #4b8aa6; 
+	font-weight: 400;
+}
+.my-float { float: left; margin-left: 100px; }
+.my-float li { list-style: none; margin-left: -38px; }
+
+@media all and (max-width: 1080px){
+	.my-float { margin-left: 5%; }
+}
+@media all and (max-width: 1024px){
+	.my-float { margin-left: 2%; }
+}
+@media all and (max-width: 800px){
+	.my-float { width: 90%; margin: 30px 0 0 8%; }
+	.mobile-none { display: none; }
+}
+@media all and (max-width: 480px){
+ @-ms-viewport;
+	table td { font-size: 14px !important; }
+	.steps { width: 19%; }
+	.triangle_step5 { width: 80% !important; }
+}

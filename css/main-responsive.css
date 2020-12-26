@@ -1,0 +1,16 @@
+﻿	
+@media only all and (max-width: 1280px) {
+@-ms-viewport;
+	.about_text { width: 44.5%; }
+}
+@media only all and (max-width: 1160px) {
+@-ms-viewport;
+	body { min-width: 1160px; }
+	.footer_text { width: 70%; }
+	.footer_our_menu { width: 30%; }
+}
+@media only all and (max-width: 1080px) {
+@-ms-viewport;
+	.header_hd { margin: -1% 0 0; }
+	.button_start_test { margin-top: -12px; }
+}

@@ -1,0 +1,208 @@
+﻿
+body { padding: 0; margin: 0; font: normal 100% 'Raleway-Medium'; }
+
+.flexslider .slides img { display: block; }
+
+/*####################  menu style  ####################*/
+.header { position: absolute; top: 0; margin: 0 auto; width: 100%; }
+.logo-menu {width: 27%; margin: 0 auto; overflow: hidden; }
+
+.header_logo,
+.header_logo-fixed,
+.footer_logo {
+	float: left;
+	margin-top: 10px;
+}
+.header_logo a,
+.header_logo-fixed a,
+.footer_logo a {
+	text-decoration: none;
+}
+.logo,
+.logo-fixed,
+.logo-mobile,
+.footer-logo {
+	float: left;
+}
+.logo p,
+.logo-fixed p,
+.footer-logo p {
+	font-family: 'RussianRailGPro';
+	font-size: 29px;
+	margin: 14px 7px;
+	line-height: 24px;
+	color: #ffffff;
+}
+.logo-mobile { display: none; }
+
+.menu { display: none; }
+.menu { overflow: hidden; }
+.menu ul { float: right; padding-left: 0; margin-right: 75px; margin-top: 20px; }
+.menu li:hover { color: #ffd500; border: 1px solid #ffffff; }
+.menu li {
+	color: #ffffff;
+	float: left;
+	list-style: none;
+	padding: 7px 20px;
+	border: 1px solid red;
+	border-color: transparent;
+	font-size: 14px;
+}
+
+.header_text { width: 59%; margin: 140px auto 0; }
+.header_hd { color: #ffffff; }
+.header_hd h2 { font-size: 57px; font-family: 'Raleway-ExtraBold'; margin: 0 auto 13px; }
+.header_hd p { font-size: 23px; font-family: 'Raleway-Regular'; margin: 15px 0; line-height: 20px; }
+.header_hd_none { display: none; }
+
+.menu_fixed li:hover { color: #ffd500; }
+.menu_fixed .disappearance { display: none; }
+#main_header { width: 95%; position: absolute; z-index: 1; }
+#main_header.default { width: 100%; display: none; }
+#main_header.fixed {
+	position: fixed;
+	top:0;
+	left:0;
+	width: 100%;
+	font-family: 'Raleway-Medium';
+}
+#main_header .header_logo-fixed { margin: 0; }
+#main_header .header_menu {
+	width: 86%;
+	height: 100%;
+	margin:0 auto;
+	position: absolute;
+	top: 5px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow:hidden;
+}
+#main_header .header_img { max-width: 2000px; margin: 0 auto; }
+#main_header .header_img img { width: 100%; height: 90px; }
+
+.navabout { display: inline-block; width: 100%; }
+.navabout, .about-us { transition: 5s; clear: both; }
+
+.ul-fixed {	padding: 0 }
+.menu_fixed li {
+	color: #ffffff;
+	float: right;
+	margin-top: 7px;
+	list-style: none;
+	padding: 7px 20px;
+	border: 1px solid red;
+	border-color: transparent;
+    font-size: 18px;
+}
+.menu_fixed li:hover { border: 1px solid #ffffff; border-radius: 15px; }
+.menu_fixed .start_color { color: #ffe400; font-family: 'Raleway-Bold'; }
+.menu_fixed .border_home { border: 1px solid #ffffff; border-radius: 15px; }
+/* STOP */
+
+.menu_fixed .button_start {
+	background: #ffda00;
+	border-radius: 20px;
+	color: #4483a1;
+	font-family: 'Raleway-Bold';
+}
+.menu_fixed .button_start:hover {
+	color: #4483a1;
+	border-color: #ffda00;
+	background: #ffda00; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffda00 0%, #ffda00 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffda00), color-stop(100%,#ffda00)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffda00 0%,#ffda00 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffda00 0%,#ffda00 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffda00 0%,#ffda00 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffda00 0%,#ffda00 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffda00', endColorstr='#ffda00',GradientType=0 ); /* IE6-9 */
+}
+.header_img img { width: 100%; height: 90px; }
+form { margin-top: 25px; }
+
+/*####################   end menu fixed style  ####################*/
+
+.our_feature { width: 85.98%; margin: 0 auto; overflow: hidden; clear: both; }
+.our_feature h2 { text-align: center; margin-top: 50px; color: #44a6d6; font-family: 'Raleway-SemiBold'; font-size: 35px; }
+.our_feature_container { margin: 40px 27%; }
+.our_feature_container a { color: #595f6f; text-decoration: none; }
+.our_feature_container p { margin: 15px 0; }
+.our_feature_container a:hover p { color: #44a6d6; }
+.our_feature_container img { margin-bottom: -1.5%; margin-right: 2.41%; padding: 0; }
+.our_feature_container .our_text { margin: 0; color: #8e97ac; font-family: 'Raleway-Regular'; font-size: 15px; line-height: 23px; }
+
+.about { background: #fff; overflow: hidden; }
+.about img { display: none; }
+.about_text { position: relative; left: 0; margin: 70px auto; width: 85%; }
+.about_text h2 { color: #44a6d6; font-size: 35px; font-family: 'Raleway-SemiBold'; }
+.about_text p { line-height: 23px; margin: 25px 0; color: #8e97ac; font-family: 'Raleway-Regular'; font-size: 15px; }
+.get_started { position: relative; color: #26a1ce; background: #fff; }
+.get_started .monitor_device, .mobile_device-2 { display: none; }
+.get_started .mobile_device { display: block; }
+.get_started .mobile_device img { width: 100%; }
+.get_started_hd { position: absolute; top: 55%; left: 94px; }
+.get_started_text { font-family: 'Raleway-ExtraBold'; }
+.get_started_text span { font-size: 61px; }
+.get_started_text .break { display: none; }
+.get_started_text .break-2 { font-size: 35px; }
+.get_started_text .break-3 { display: none; font-size: 35px; }
+.get_started_text .break-4 { display: block; height: 0; font-size: 35px; }
+.p_button { padding: 19px 55px; }
+
+.ad { margin: 3% auto; overflow: hidden; width: 85.98%; }
+.ad_hd { width: 100%; margin: 3% auto 7%; text-align: center; font-size: 34px; float: left; color: #8c8d8d; }
+.ad_box_main { overflow: hidden; width: 100%; }
+.ad_box { width: 50%; float: left; text-align: center; margin: 2% auto; }
+.ad_box a {	color: #807e7e; text-decoration: none; }
+.ad_box a:hover { color: #44a6d6; }
+.ad_box img { text-align: end; }
+.ad_box p { font-size: 14px; color: #807d7d; }
+
+/*#################### button style ####################*/
+.button_style {
+    width: 210px;
+	height: 58px;
+	cursor: pointer;
+    border-radius: 25px;
+	-moz-border-radius: 30px;
+	background: #ffda00;
+	border: none;
+	font-size: 15px;
+	font-family: 'Raleway-ExtraBold';
+	outline: none;
+	text-decoration: none;
+	color: #1c526b;
+	}
+.button_style:hover {
+	background: #ffd727; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffd727 0%, #ffe64b 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffd727), color-stop(100%,#ffe64b)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffd727 0%,#ffe64b 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffd727 0%,#ffe64b 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffd727 0%,#ffe64b 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffd727 0%,#ffe64b 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd727', endColorstr='#ffe64b',GradientType=0 ); /* IE6-9 */
+	}
+.button_style a { text-decoration: none; color: #1c526b; }
+
+/*#################### end button style ####################*/
+
+
+/*#################### footer style ####################*/
+
+.footer { width: 85.98%; margin: 0 auto; overflow: hidden; color: #ffffff; }
+.footer_textinf	{ float: left; margin: 20px auto; width: 100%; }
+.footer_logo { width: 100%; margin: 3% auto; clear: both; }
+.footer_text { width: 56%; color: #78898e; line-height: 25px; font-family: 'Raleway-Regular'; font-size: 14px; }
+.footer_info { width: 100%; float: left; text-align: center; margin: 100px 0 15px; }
+.footer_symbol { width: 100%; float: left; text-align: center; margin-top: 1%; }
+.footer_symbol span { display: none; }
+.footer_menu, .footer_menu2 { float: left; margin-top: 2.5%; margin-left: 3.5%; }
+.footer_menu a, .footer_menu2 a { color: #f3f6f7; text-decoration: none; }
+.footer_menu a:hover, .footer_menu2 a:hover { color: #ffd500; }
+.footer_menu h3, .footer_menu2 h3 { color: #f4b341; }
+.footer_menu li, .footer_menu2 li { list-style-type: none; line-height: 33px; font-size: 17px; }
+.footer_text p, .footer_menu2 p { margin: 4.6% 0; }
+
+/*#################### end footer style ####################*/

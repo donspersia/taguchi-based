@@ -1,0 +1,54 @@
+﻿ 
+.triangle_step1::after {
+	content: '';
+	position: absolute;
+	top: -20px;
+    left: -4px;
+    border: 10px solid transparent;
+    border-bottom: 20px solid #fed600;
+    border-radius: 0px 0px 10px 10px;
+}
+label input + span { margin: 0 15px; cursor: pointer; }
+
+/*label input:focus + span,*/
+label input:checked  + span  { font-size: 20px; font-weight: bold; }
+
+/*Рисуем радио баттон - 2 кружочка*/
+label {
+	position: relative;
+}
+label input[type="radio"]::after {
+	width: 20px;
+	height: 20px;
+	content: '';
+	cursor: pointer;
+	background: #f3f6f7;
+	position: absolute;
+	left: 0;
+	top: 2px;
+	border-radius: 10px;
+	box-shadow: 0 0 1px rgba(136, 136, 136, 0.5);
+}
+label input[type="radio"]::before {
+	width: 8px;
+	height: 8px;
+	content: '';
+	cursor: pointer;
+	background: rgb(232, 232, 232); /* #e7e7e7 */
+	position: absolute;
+	left: 5px;
+	top: 7px;
+	border-radius: 5px;
+	border: 1px solid #e2e2e2;
+	z-index: 10;
+}
+label input[type="radio"]:checked::before { 
+	background: #22cccb;
+	border: 1px solid #22cccb;
+}
+label + span:hover { color: #868686; }
+.style7 { font-size: 14px; }
+
+.step1 { font-family: 'Raleway-Bold'; color: #4b8aa6; }
+.step1_mobile { font-family: 'Raleway-Bold'; color: #4b8aa6; }
+
